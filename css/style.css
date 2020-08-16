@@ -396,8 +396,6 @@ body{
 	transition-delay: 1s;
 	width: 0;
 	transition: 1s;
-	/* opacity: 0; */
-	
 }
 .projects-info{
 	background: #353535;
