@@ -319,6 +319,26 @@ body{
 }
 
 /*========hover progress bar=======*/
+.skills:hover .java-script{
+	width: 600px;
+	transition: width .8s;
+	transition-timing-function: linear;
+}
+.skills:hover .ajax{
+	width: 540px;
+	transition: width .8s;
+	transition-timing-function: linear;
+}
+.skills:hover .npm{
+	width: 520px;
+	transition: width .8s;
+	transition-timing-function: linear;
+}
+.skills:hover .vue{
+	width: 500px;
+	transition: width .8s;
+	transition-timing-function: linear;
+}
 .skills:hover .html{
 	width: 580px;
 	transition: width .8s;
@@ -382,13 +402,12 @@ body{
 .projects-info{
 	background: #353535;
 	opacity: 0;
-	padding: 80px 0 275px 80px;
+	padding: 80px 0 195px 80px;
 	transition: opacity 1s;
 }
 .projects:hover .projects-info{
 	background: #353535;
 	padding: 80px 0 195px 80px;
-	margin: 0 0 80px;
 	opacity: 1;
 	transition: opacity 1s;
 	transition-delay: .8s;
