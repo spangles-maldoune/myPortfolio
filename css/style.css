@@ -279,8 +279,7 @@ body{
 /*=======section skills=======*/
 .skills{
 	background: #f5f5f5;
-	padding: 80px 80px 75px;
-	margin: 0 0 80px;
+	padding: 35px 50px;
 }
 .skills-h2{
 	font-size: 80px;
@@ -293,7 +292,7 @@ body{
 	display: flex;
 }
 .skills-item{
-	margin: 0 0 33px;
+	margin: 0 0 20px;
 }
 .skills-item:last-child{
 	margin: 0;
@@ -312,7 +311,7 @@ body{
 }
 .progress-item{
 	height: 32px;
-	margin: 0 0 33px;
+	margin: 0 0 20px;
 }
 .progress-item:last-child{
 	margin: 0;
@@ -400,31 +399,32 @@ body{
 .projects-info{
 	background: #353535;
 	opacity: 0;
-	padding: 80px 0 195px 80px;
+	padding: 35px 0 142px 50px;
 	transition: opacity 1s;
 }
 .projects:hover .projects-info{
 	background: #353535;
-	padding: 80px 0 195px 80px;
+	padding: 35px 0 142px 50px;
 	opacity: 1;
 	transition: opacity 1s;
 	transition-delay: .8s;
 }
 .projects-h2{
 	color: #55BA33;
-	margin: 0 0 80px;
+	margin: 0 0 33px;
 }
 .projects-markup{
-	margin: 0 0 80px;
+	margin: 0 0 55px;
 }
 .projects-h3{
-	font-size: 32px;
+	font-size: 34px;
 	color: #fff;
-	margin: 0 0 45px;
+	margin: 0 0 20px;
+   font-weight: 700;
+   font-style: italic;
 }
 .projects-span{
-	font-size: 32px;
-	font-weight: 900;
+	font-size: 26px;
 	color: #f5f5f5;
 	margin: 0 0 16px;
 	display: block;
@@ -438,14 +438,14 @@ body{
 /*======section experience======*/
 .experience{
 	background: #f5f5f5;
-	padding: 80px 0 100px 80px;
+	padding: 35px 0 100px 50px;
 }
 .exp-item{
    margin: 0 0 50px 0;
 }
 .exp-h2{
 	color: #272822;
-	margin: 0 0 80px;
+	margin: 0 0 33px;
 }
 .exp-span{
 	font-size: 18px;
