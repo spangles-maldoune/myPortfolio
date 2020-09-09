@@ -306,7 +306,7 @@ body{
 	height: 14px;
 	background: #C01418;
 	border-radius: 7px;
-	margin: 9px 0 0 165px;
+	margin: 9px 0 0 80px;
 	transition: width .8s;
 }
 .progress-item{
