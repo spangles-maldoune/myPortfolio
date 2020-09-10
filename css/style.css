@@ -2,8 +2,8 @@ body{
 	font-family: 'Roboto', Helvetica, sans-serif;
 }
 .wrapper {
-	padding: 80px;
-	min-width: 1024px; 
+	padding: 30px 80px 0;
+	max-width: 1360px;
 }
 .header{
 	margin: 0 0 80px;
@@ -154,7 +154,7 @@ body{
 .scroll{
 	position: absolute;
 	bottom: 24px;
-	right: -8px;
+	left: 0;
 }
 .scroll-span{
 	display: block;
@@ -214,8 +214,7 @@ body{
 }
 .header-section:hover .scroll{
 	position: absolute;
-	bottom: 24px;
-	right: 1154px;
+	left: 0;
 }
 .header-section:hover .btn-area{
 	opacity: 1;
@@ -259,10 +258,6 @@ body{
 	width: 0;
 	transition-delay: 0s;
 }
-.scroll-active{
-	display: none;
-}
-
 
 /*==========main==========*/
 .main{
